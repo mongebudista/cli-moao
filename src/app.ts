@@ -1,7 +1,7 @@
 import { Answers } from "./types";
-import promptReact from "./cli/react/promptReact";
-import promptVue from "./cli/vue/promptVue";
 import inquirer from "./utils/inquirer";
+import { ReactCli } from "./cli/react";
+import { VueCli } from "./cli/vue";
 
 export class App {
   public inquirer;
@@ -32,11 +32,13 @@ export class App {
       ])
       .then(async (answers: Answers) => {
         if (answers.framework === "React 🔵") {
-          await promptReact();
+          const reactCli = new ReactCli();
+          reactCli.prompt();
         }
 
         if (answers.framework === "Vue 🟢") {
-          await promptVue();
+          const vueCli = new VueCli();
+          vueCli.prompt();
         }
       });
   }
