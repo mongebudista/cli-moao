@@ -1,4 +1,4 @@
-import type { Answers } from "../../@types";
+import type { Answers } from "../../types";
 import { app } from "../../app";
 import { createReactComponent } from "./createReactComponent";
 import { deleteReactComponent } from "./deleteReactComponent";

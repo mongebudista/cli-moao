@@ -1,4 +1,4 @@
-import type { Answers } from "../@types";
+import type { Answers } from "../types";
 
 const componentTemplate = (
   answers: Answers

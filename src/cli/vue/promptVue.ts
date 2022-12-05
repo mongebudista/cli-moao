@@ -1,4 +1,4 @@
-import type { Answers } from "../../@types";
+import type { Answers } from "../../types";
 import { app } from "../../app";
 import { createVueComponent } from "./createVueComponent";
 import { deleteVueComponent } from "./deleteVueComponent";

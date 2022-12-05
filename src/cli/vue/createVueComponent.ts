@@ -1,4 +1,4 @@
-import { Answers } from "../../@types";
+import { Answers } from "../../types";
 import { app } from "../../app";
 import fs from "fs";
 import { componentTemplate } from "../../templates/vue";

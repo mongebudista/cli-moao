@@ -1,4 +1,4 @@
-import type { Answers } from "../../@types";
+import type { Answers } from "../../types";
 import fs from "fs";
 import { componentTemplate, layoutTemplate } from "../../templates/react";
 import { app } from "../../app";

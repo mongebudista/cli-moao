@@ -1,4 +1,4 @@
-import { Answers } from "./@types";
+import { Answers } from "./types";
 import promptReact from "./cli/react/promptReact";
 import promptVue from "./cli/vue/promptVue";
 import inquirer from "./utils/inquirer";
