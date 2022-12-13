@@ -4,7 +4,7 @@ import { Cli } from "../../models/cli";
 import fs from "fs";
 import { app } from "../../app";
 import { componentTemplate, layoutTemplate } from "../../templates/react";
-import { Answers } from "../../types";
+import type { Answers } from "../../types";
 
 export class ReactCli implements Cli {
   private componentFolderVite: boolean = fs.existsSync("./src/components");

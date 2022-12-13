@@ -1,4 +1,4 @@
-import { Answers } from "../types";
+import type { Answers } from "../types";
 
 export const componentTemplate = (answers: Answers) => `<script setup>
 </script>

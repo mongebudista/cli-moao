@@ -1,4 +1,4 @@
-import { Answers } from "./types";
+import type { Answers } from "./types";
 import inquirer from "./utils/inquirer";
 import { ReactCli } from "./cli/react";
 import { VueCli } from "./cli/vue";

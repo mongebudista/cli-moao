@@ -4,7 +4,7 @@ import fs from "fs";
 import { app } from "../../app";
 import { Cli } from "../../models/cli";
 import { componentTemplate } from "../../templates/vue";
-import { Answers } from "../../types";
+import type { Answers } from "../../types";
 
 export class VueCli implements Cli {
   private componentFolderVue: boolean = fs.existsSync("./src/components");
